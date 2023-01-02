@@ -22,6 +22,7 @@ namespace QueueFunction
 
     public class Queue
     {
+        //connectionString is defined in local.settings.json
         //return => WE USE THIS TO REFER THAT THE TRIGGER WILL WRITE TO TABLE STORAGE
         //CONNECTION IS THE SAME BECAUSE OF THE SAME STORAGE ACCOUNT
         [FunctionName("GetMessages")]
